@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:org.nasdanika.sirius.tree="urn:org.nasdanika.sirius.tree" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description">
-  <viewpoint:DAnalysis uid="_8sZiAL51EeqylL6t9NBQyg" selectedViews="_t_P7oL52EeqylL6t9NBQyg" version="14.3.0.201909031200">
+  <viewpoint:DAnalysis uid="_ftge4L53EeqylL6t9NBQyg" selectedViews="_kzwnAL53EeqylL6t9NBQyg" version="14.3.0.201909031200">
     <semanticResources>docs.vinci</semanticResources>
-    <ownedViews xmi:type="viewpoint:DView" uid="_t_P7oL52EeqylL6t9NBQyg">
+    <ownedViews xmi:type="viewpoint:DView" uid="_kzwnAL53EeqylL6t9NBQyg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t_U0Ir52EeqylL6t9NBQyg" name="docs" repPath="#_t_U0IL52EeqylL6t9NBQyg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_kz1fgr53EeqylL6t9NBQyg" name="docs" repPath="#_kz1fgL53EeqylL6t9NBQyg">
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
-        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#a5852943-fc0f-493f-ab21-5ed9612e86dd"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#92cb98b1-c37e-4b70-a572-016c0088a15e"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_t_U0IL52EeqylL6t9NBQyg">
-    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#a5852943-fc0f-493f-ab21-5ed9612e86dd"/>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_kz1fgL53EeqylL6t9NBQyg">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#92cb98b1-c37e-4b70-a572-016c0088a15e"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
