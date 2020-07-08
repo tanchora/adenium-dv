@@ -46,7 +46,27 @@
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Календарь бронирования" id="3060bdb8-073f-47dd-b252-7aa75d2e2ebf" text="Календарь бронирования" icon="far fa-calendar-alt" role="Section"/>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Карта" id="b3310b08-b84d-463c-9d46-0fb7436f8e1f" text="Карта" icon="fas fa-map-marked-alt" role="Section"/>
   </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лента новостей" id="b8d3c6f3-f467-4067-a134-f96a4b58889d" linkedElements="0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210 e520802e-8c61-4990-afd3-4b693969e055 4329958f-0e19-4ca5-8913-b5971ff193bb" role="Section" sectionStyle="Card" sectionColumns="1">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лента новостей" id="b8d3c6f3-f467-4067-a134-f96a4b58889d" linkedElements="bea56ed0-5da9-40c2-a7cd-71fb31b88770 d3bc5981-7feb-44d7-8c1d-03412344fca8 0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210 e520802e-8c61-4990-afd3-4b693969e055 4329958f-0e19-4ca5-8913-b5971ff193bb" role="Section" sectionStyle="Card" sectionColumns="1">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Robin 08/07/2020" id="bea56ed0-5da9-40c2-a7cd-71fb31b88770" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Укоренённый черенок сорта   __Робин__.  &#xD;&#xA;&#xD;&#xA;Цена __450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+      <appearance>
+        <text alignment="Right" color="Light" weight="Light"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление кратко" id="61a7620d-0d69-430d-9e86-aba7d9c3d1b5" text="О сорте" linkedElements="aca28be0-8ddd-4bb3-9069-c369b672ea27" role="Section" sectionStyle="Action group">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Робин" id="aca28be0-8ddd-4bb3-9069-c369b672ea27" text="&lt;img src=&quot;img/300px/robin.jpg&quot; alt=&quot;Рбин&quot;>" role="Section" sectionStyle="Card tab" markdownContent="__Робин__&#xD;&#xA;&#xD;&#xA;----&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Махровый трёхслойный сорт, выращенный из семян селекции [Чи Лунг Ко](https://www.adenium.com.tw/indexe.htm &quot;один из известнейших производителей семян адениумов&quot;). &#xD;&#xA;&#xD;&#xA;Сорт отличается мелкими листьями ланцетовидной формы, короткими междоузлиями, большим количеством почек на ветках  и небольшими цветами.   То есть, сорт практически идеален для формирования бонсай. Листья, проклёвывающиеся из почек имеют тёмно-красный, практически черный цвет. &#xD;&#xA;"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="02a94c76-85db-42a1-8a77-1a7d8e269a7a" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/robin_graft_072020.jpg)"/>
+      <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Corel Angel 08/07/2020" id="d3bc5981-7feb-44d7-8c1d-03412344fca8" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Маленькая прививка  сорта  __Corel Angel__. Подвой маленький, но прививка хорошо прижившаяся.&#xD;&#xA;&#xD;&#xA;Цена __450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+      <appearance>
+        <text alignment="Right" color="Light" weight="Light"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление кратко" id="18c4bfab-52c9-4f6c-9600-229cfedae220" text="О сорте" linkedElements="2392a7ac-eaf5-45ee-b998-a0cc5e50d3f9" role="Section" sectionStyle="Action group">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Corel Angel" id="2392a7ac-eaf5-45ee-b998-a0cc5e50d3f9" text="&lt;img src=&quot;img/300px/CorelAngel_300px_072020.jpeg&quot; alt=&quot;Corel Angel&quot;>" role="Section" sectionStyle="Card tab" markdownContent="__Corel Angel__&#xD;&#xA;&#xD;&#xA;----&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Махровый трёхслойный, охотно цветущий адениум.  Цветы крупные - 8 - 10 см. в диаметре.  В первые дни цветения - кремовые, розовеющие к краю лепестка. Со временем светлеют. &#xD;&#xA;&#xD;&#xA;Листья округлые, крупные, без выражнного жилкования. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="80a3b2e7-a115-4e59-837a-fbee2f392af9" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/corelangel_2020_01.jpg)"/>
+      <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
+    </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Siam Pink Angel 06/07/2020" id="0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210" color="Primary" text="6.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Выставлен на продажу взрослый адениум __Siam Pink Angel__. Растению 4 года. В настоящее время набирает бутоны, зацветет в июле 2020.&#xD;&#xA;&#xD;&#xA;Каудекс в самой толстой части - 9 см.     &#xD;&#xA;Высота растения ~ 40 см. &#xD;&#xA;&#xD;&#xA;Цена __1500 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
@@ -76,16 +96,6 @@
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="9c534d42-2011-4a0b-9646-065e59e44352" text="Подробнее" role="Section" markdownContent="![Амуретта](img/adeniumforsale/Amuretta_062020_01.jpg &quot;Амуретта&quot;)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;br>&lt;/p>"/>
-    </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Corel Angel 08/07/2020" id="d3bc5981-7feb-44d7-8c1d-03412344fca8" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Маленькая прививка  сорта  __Corel Angel__. Подвой маленький, но прививка хорошо прижившаяся.&#xD;&#xA;&#xD;&#xA;Цена __450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
-      <appearance>
-        <text alignment="Right" color="Light" weight="Light"/>
-      </appearance>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление кратко" id="18c4bfab-52c9-4f6c-9600-229cfedae220" text="О сорте" linkedElements="2392a7ac-eaf5-45ee-b998-a0cc5e50d3f9" role="Section" sectionStyle="Action group">
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Corel Angel" id="2392a7ac-eaf5-45ee-b998-a0cc5e50d3f9" text="&lt;img src=&quot;img/300px/CorelAngel_300px_072020.jpeg&quot; alt=&quot;Corel Angel&quot;>" role="Section" sectionStyle="Card tab" markdownContent="__Corel Angel__&#xD;&#xA;&#xD;&#xA;----&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Махровый трёхслойный, охотно цветущий адениум.  Цветы крупные - 8 - 10 см. в диаметре.  В первые дни цветения - кремовые, розовеющие к краю лепестка. Со временем светлеют. &#xD;&#xA;&#xD;&#xA;Листья округлые, крупные, без выражнного жилкования. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
-      </elements>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="80a3b2e7-a115-4e59-837a-fbee2f392af9" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/corelangel_2020_01.jpg)"/>
-      <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
   </elements>
 </org.nasdanika.vinci.app:Action>

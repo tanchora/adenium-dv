@@ -6,7 +6,14 @@
   </head>
   <head xsi:type="org.nasdanika.vinci.html:Stylesheet" code=".nsd-app-content-row {&#xA;    min-height: 80vh;&#xA;}&#xA;.nsd-root-action {&#xA;    text-decoration: none;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xA;@media print {&#xA;  div.nsd-app-navigation-panel {&#xA;    display: none;&#xA;  }&#xA;}"/>
   <head xsi:type="org.nasdanika.vinci.html:Script" code="$(document).ready( function() {&#xA;    $('.nsd-app-container').addClass(['border-bottom', 'border-dark']);&#xA;    $('.nsd-app-header .nav-link').addClass('text-dark');&#xA;    $('.nsd-root-action').addClass(['display-4', 'text-dark']);&#xA;&#xA;    $('.nsd-app-navbar nav.navbar').removeClass(['bg-light', 'navbar-light']);&#xD;&#xA;    $('.nsd-app-navbar nav.navbar').addClass(['bg-primary', 'navbar-dark']);&#xA;&#xA;    $('.nsd-app-navigation-panel').addClass(['pb-1']); &#xA;    $('.nsd-app-content-panel').addClass(['col']);&#xD;&#xA;    $('.nsd-app-footer').removeClass(['bg-dark']);&#xA;    $('.nsd-app-footer').addClass(['text-center']);&#xA;    $('.nsd-app-footer .nsd-footer-action').addClass(['text-dark']);&#xA;});&#xA;"/>
+  <body xsi:type="org.nasdanika.vinci.html:Script" title="бэкграунд" code="body {&#xD;&#xA;  background-image: url(img/Ad_Lucius_Spark_01.jpg);&#xD;&#xA;  background-attachment: fixed;&#xD;&#xA;  background-size: 100%;&#xD;&#xA;  ​​​​​​​background-repeat: no-repeat;&#xD;&#xA;}"/>
   <builders xsi:type="org.nasdanika.vinci.app:BootstrapContainerApplication">
+    <appearance>
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="url(img/Ad_Lucius_Spark_01.jpg)" name="background-image"/>
+        <entries xsi:type="org.nasdanika.ncore:Property" value="fixed" name="background-attachment"/>
+      </attributes>
+    </appearance>
     <header>
       <appearance background="">
         <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
@@ -30,6 +37,10 @@
     <navigationPanel/>
     <contentPanel>
       <appearance>
+        <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+          <entries xsi:type="org.nasdanika.ncore:Property" value="url(img/Ad_Lucius_Spark_01.jpg)" name="background-image"/>
+          <entries xsi:type="org.nasdanika.ncore:Property" value="fixed" name="background-attachment"/>
+        </attributes>
         <padding size="2" breakpoint="Large" top="false"/>
         <padding size="4" breakpoint="Large" bottom="false" left="false" right="false"/>
       </appearance>
