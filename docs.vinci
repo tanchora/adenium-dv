@@ -47,7 +47,7 @@
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Карта" id="b3310b08-b84d-463c-9d46-0fb7436f8e1f" text="Карта" icon="fas fa-map-marked-alt" role="Section"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лента новостей" id="b8d3c6f3-f467-4067-a134-f96a4b58889d" linkedElements="bea56ed0-5da9-40c2-a7cd-71fb31b88770 d3bc5981-7feb-44d7-8c1d-03412344fca8 0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210 e520802e-8c61-4990-afd3-4b693969e055 4329958f-0e19-4ca5-8913-b5971ff193bb" role="Section" sectionStyle="Card" sectionColumns="1">
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Robin 08/07/2020" id="bea56ed0-5da9-40c2-a7cd-71fb31b88770" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Укоренённый черенок сорта   __Робин__.  &#xD;&#xA;&#xD;&#xA;Цена __450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Robin 08/07/2020" id="bea56ed0-5da9-40c2-a7cd-71fb31b88770" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Укоренённый черенок сорта   __Робин__.  &#xD;&#xA;&#xD;&#xA;Цена __350 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>

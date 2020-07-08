@@ -37,10 +37,6 @@
     <navigationPanel/>
     <contentPanel>
       <appearance>
-        <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
-          <entries xsi:type="org.nasdanika.ncore:Property" value="url(img/Ad_Lucius_Spark_01.jpg)" name="background-image"/>
-          <entries xsi:type="org.nasdanika.ncore:Property" value="fixed" name="background-attachment"/>
-        </attributes>
         <padding size="2" breakpoint="Large" top="false"/>
         <padding size="4" breakpoint="Large" bottom="false" left="false" right="false"/>
       </appearance>
