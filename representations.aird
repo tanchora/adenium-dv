@@ -4,26 +4,18 @@
     <semanticResources>docs.vinci</semanticResources>
     <semanticResources>Flatly.vinci</semanticResources>
     <semanticResources>Flatly_fluid.vinci</semanticResources>
-    <semanticResources>docs/img/docs.vinci</semanticResources>
-    <semanticResources>docs/zcollection.vinci</semanticResources>
+    <semanticResources>docs/schlumbergera.vinci</semanticResources>
+    <semanticResources>docs/adenium.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kzwnAL53EeqylL6t9NBQyg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hVhwIr54EeqylL6t9NBQyg" name="АдениумДВ" repPath="#_hVhwIL54EeqylL6t9NBQyg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_mrtJocD0EeqRFJ10yVIvTw" name="Стартовая с объявлениями" repPath="#_mrqGUMD0EeqRFJ10yVIvTw">
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_W1pnUr99EeqauaX-DmQl8A" name="Collection" repPath="#_W1pnUL99EeqauaX-DmQl8A">
-        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
-        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs/zcollection.vinci#index"/>
-      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_hVhwIL54EeqylL6t9NBQyg">
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_mrqGUMD0EeqRFJ10yVIvTw">
     <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
-    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
-  </org.nasdanika.sirius.tree:AdapterFactoryTree>
-  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_W1pnUL99EeqauaX-DmQl8A">
-    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs/zcollection.vinci#index"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
