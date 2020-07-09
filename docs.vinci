@@ -113,5 +113,5 @@
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;br>&lt;/p>"/>
     </elements>
   </elements>
-  <content xsi:type="org.nasdanika.vinci.components:MarkdownText" style="true" markdown="![](img/baner_fl.jpg)"/>
+  <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Банер" style="true" markdown="![](img/baner_fl.jpg)"/>
 </org.nasdanika.vinci.app:Action>
