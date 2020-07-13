@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Адениум ДВ" description="Адениум ДВ" id="index" text="Адениум ДВ" tooltip="Стартовая страница. Новости." linkedElements="ea53df74-bac0-49cb-a9c4-7bcac5cc8029 5468585e-5931-42ec-83c2-68f91071d2b9 b8d3c6f3-f467-4067-a134-f96a4b58889d" sectionStyle="Default" markdownContent="" pageTemplate="./Flatly.vinci">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Адениум ДВ" description="Адениум ДВ" id="index" text="Адениум ДВ" tooltip="Стартовая страница. Новости." linkedElements="ea53df74-bac0-49cb-a9c4-7bcac5cc8029 5468585e-5931-42ec-83c2-68f91071d2b9 b8d3c6f3-f467-4067-a134-f96a4b58889d 8bd4c686-bf1c-408b-b89f-59e5ce92b1d3" sectionStyle="Default" markdownContent="" pageTemplate="./Flatly.vinci">
   <appearance>
     <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
       <entries xsi:type="org.nasdanika.ncore:Property" value="none" name="text-decoration"/>
@@ -47,7 +47,7 @@
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Карта" id="b3310b08-b84d-463c-9d46-0fb7436f8e1f" text="Карта" icon="fas fa-map-marked-alt" role="Section"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Лента новостей" id="b8d3c6f3-f467-4067-a134-f96a4b58889d" linkedElements="da6a5f27-3deb-4328-bc11-586a7cd49e7c 9d828544-596b-46a0-a3a4-e0478816f0f9 bea56ed0-5da9-40c2-a7cd-71fb31b88770 d3bc5981-7feb-44d7-8c1d-03412344fca8 0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210 e520802e-8c61-4990-afd3-4b693969e055 4329958f-0e19-4ca5-8913-b5971ff193bb" role="Section" sectionStyle="Card" sectionColumns="1">
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Эос + Глори медал 09/07/2020" id="9d828544-596b-46a0-a3a4-e0478816f0f9" color="Primary" text="09.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Продаётся растение с прививками двух разных сортов: Glory Medal и Эос. Оба сорта с крупными цветами, охотно цветущие. Размер каудекса небольшой, растение высажено в стаканчик от сметаны (350 мл.)&#xD;&#xA;&#xD;&#xA;Прививки сделаны 27  мая 2020, хорошо и крепко прижились, на них активно развиваются почки.&#xD;&#xA;&#xD;&#xA;Цена __600 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Эос + Глори медал 09/07/2020" id="9d828544-596b-46a0-a3a4-e0478816f0f9" color="Primary" text="09.07.2020" linkedElements="be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Продаётся растение с прививками двух разных сортов: Glory Medal и Эос. Оба сорта с крупными цветами, охотно цветущие. Размер каудекса небольшой, растение высажено в стаканчик от сметаны (350 мл.)&#xD;&#xA;&#xD;&#xA;Прививки сделаны 27  мая 2020, хорошо и крепко прижились, на них активно развиваются почки.&#xD;&#xA;&#xD;&#xA;Цена __600 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -60,9 +60,15 @@
         </elements>
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="dfeb261e-e1f3-4299-aa54-89198af359b3" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/2x_priv_GloryMedal_Eos_01_2020.jpg)"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Заказ в футер карточки" id="be265f26-b079-4c51-acfb-89a592ba2a2c" color="" text="  Заказать" icon="fa fa-envelope" notification="" role="Context" sectionStyle="Card">
+        <appearance background="Primary">
+          <text color="Light" weight="Bold"/>
+        </appearance>
+        <content xsi:type="org.nasdanika.ncore:SupplierFactoryReference" title="фома связи" target="//@elements.3/@content.0"/>
+      </elements>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Robin 08/07/2020" id="bea56ed0-5da9-40c2-a7cd-71fb31b88770" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Укоренённый черенок сорта   __Робин__.  &#xD;&#xA;&#xD;&#xA;Цена __350 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Robin 08/07/2020" id="bea56ed0-5da9-40c2-a7cd-71fb31b88770" color="Primary" text="08.07.2020" linkedElements="be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Укоренённый черенок сорта   __Робин__.  &#xD;&#xA;&#xD;&#xA;Цена __350 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -72,7 +78,7 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="02a94c76-85db-42a1-8a77-1a7d8e269a7a" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/robin_graft_072020.jpg)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Corel Angel 08/07/2020" id="d3bc5981-7feb-44d7-8c1d-03412344fca8" color="Primary" text="08.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Маленькая прививка  сорта  __Corel Angel__. Подвой маленький, но прививка хорошо прижившаяся.&#xD;&#xA;&#xD;&#xA;Цена __450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Corel Angel 08/07/2020" id="d3bc5981-7feb-44d7-8c1d-03412344fca8" color="Primary" text="08.07.2020" linkedElements="be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Маленькая прививка  сорта  __Corel Angel__. Подвой маленький, но прививка хорошо прижившаяся.&#xD;&#xA;&#xD;&#xA;Цена __450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -82,7 +88,7 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="80a3b2e7-a115-4e59-837a-fbee2f392af9" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/corelangel_2020_01.jpg)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Siam Pink Angel 06/07/2020" id="0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210" color="Primary" text="6.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Выставлен на продажу взрослый адениум __Siam Pink Angel__. Растению 4 года. В настоящее время набирает бутоны, зацветет в июле 2020.&#xD;&#xA;&#xD;&#xA;Каудекс в самой толстой части - 9 см.     &#xD;&#xA;Высота растения ~ 40 см. &#xD;&#xA;&#xD;&#xA;Цена __1500 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Siam Pink Angel 06/07/2020" id="0a6d2966-dde2-41f9-a9a9-2ca4d7b1d210" color="Primary" text="6.07.2020" linkedElements="be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Выставлен на продажу взрослый адениум __Siam Pink Angel__. Растению 4 года. В настоящее время набирает бутоны, зацветет в июле 2020.&#xD;&#xA;&#xD;&#xA;Каудекс в самой толстой части - 9 см.     &#xD;&#xA;Высота растения ~ 40 см. &#xD;&#xA;&#xD;&#xA;Цена __1500 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -92,7 +98,7 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="2eb873df-5bc3-4e99-88e0-f2fc80d5bd0b" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/SiamPinkAngel_0607202001.jpg)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Амуретта 5.07.2020" id="4329958f-0e19-4ca5-8913-b5971ff193bb" color="Primary" text="5.07.2020" linkedElements="861f4674-8a18-4d3e-b534-d76c56b6cf43 b08459f2-4568-43f0-a61f-9532d0d26b65" role="Section" sectionStyle="Card tab" markdownContent="Продаётся взрослое (4-х летнее) растение сорта __Амуретта__, каудекс толщиной 5 см. в настоящее время набирает бутоны.    &#xD;&#xA;&#xD;&#xA;Цена __1500 руб.__&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Амуретта 5.07.2020" id="4329958f-0e19-4ca5-8913-b5971ff193bb" color="Primary" text="5.07.2020" linkedElements="861f4674-8a18-4d3e-b534-d76c56b6cf43 b08459f2-4568-43f0-a61f-9532d0d26b65 be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" markdownContent="Продаётся взрослое (4-х летнее) растение сорта __Амуретта__, каудекс толщиной 5 см. в настоящее время набирает бутоны.    &#xD;&#xA;&#xD;&#xA;Цена __1500 руб.__&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -102,7 +108,7 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="b08459f2-4568-43f0-a61f-9532d0d26b65" text="Подробнее" role="Section" markdownContent="![Амуретта](img/adeniumforsale/Amuretta_062020_01.jpg &quot;Амуретта&quot;)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Viva Las Vegus 6.07" id="e520802e-8c61-4990-afd3-4b693969e055" color="Primary" text="6.07.2020" role="Section" sectionStyle="Card tab" markdownContent="Взрослый (10 лет) адениум сорта Viva Las Vegas.    &#xD;&#xA;&#xD;&#xA;Цена __6500__ руб.&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Viva Las Vegus 6.07" id="e520802e-8c61-4990-afd3-4b693969e055" color="Primary" text="6.07.2020" linkedElements="be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" markdownContent="Взрослый (10 лет) адениум сорта Viva Las Vegas.    &#xD;&#xA;&#xD;&#xA;Цена __6500__ руб.&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -112,7 +118,7 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="9c534d42-2011-4a0b-9646-065e59e44352" text="Подробнее" role="Section" markdownContent="![Амуретта](img/adeniumforsale/Amuretta_062020_01.jpg &quot;Амуретта&quot;)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;br>&lt;/p>"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Вива Лас Вегас + Корел Энджел + Принц Вильям 11/07/2020" id="da6a5f27-3deb-4328-bc11-586a7cd49e7c" color="Primary" text="11.07.2020" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Продаётся растение с прививками трёх разных сортов: __Вива лас Вегас + Корел Энджел + Принц Вильям.__ Все сорта с крупные,  охотно цветущие.   &#xD;&#xA;&#xD;&#xA;Диаметр подвоя ~ 4 см. Подвою 4 года.  Растение высажено в горшок диаметром 15 см. &#xD;&#xA;&#xD;&#xA;Прививки сделаны в 2019 году, хорошо и крепко прижившиеся.&#xD;&#xA;&#xD;&#xA;Цена __1500 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Вива Лас Вегас + Корел Энджел + Принц Вильям 11/07/2020" id="da6a5f27-3deb-4328-bc11-586a7cd49e7c" color="Primary" text="11.07.2020" linkedElements="be265f26-b079-4c51-acfb-89a592ba2a2c" role="Section" sectionStyle="Card tab" sectionColumns="1" markdownContent="Продаётся растение с прививками трёх разных сортов: __Вива лас Вегас + Корел Энджел + Принц Вильям.__ Все сорта с крупные,  охотно цветущие.   &#xD;&#xA;&#xD;&#xA;Диаметр подвоя ~ 4 см. Подвою 4 года.  Растение высажено в горшок диаметром 15 см. &#xD;&#xA;&#xD;&#xA;Прививки сделаны в 2019 году, хорошо и крепко прижившиеся.&#xD;&#xA;&#xD;&#xA;Цена __1450 руб.__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
       <appearance>
         <text alignment="Right" color="Light" weight="Light"/>
       </appearance>
@@ -128,6 +134,9 @@
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Объявление подробнее" id="cb295481-b13a-417d-ac81-bc88bf65cd26" text="Подробнее" role="Section" markdownContent="![](img/adeniumforsale/3x_graft_042020_01.jpg)"/>
       <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
     </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Заказ" id="8bd4c686-bf1c-408b-b89f-59e5ce92b1d3" text=" Заказ" icon="fa fa-envelope">
+    <content xsi:type="org.nasdanika.ncore:Value" title="Форма связи на гугле" value="&lt;iframe src=&quot;https://docs.google.com/forms/d/e/1FAIpQLSeexD2Hs7jDKJ2XX7q68lpONsCSjYt7KBJRFNNboToSsUV6gw/viewform?embedded=true&quot; width=&quot;900&quot; height=&quot;2086&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;>Загрузка…&lt;/iframe>"/>
   </elements>
   <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Банер" style="true" markdown="![](img/baner_fl.jpg)"/>
 </org.nasdanika.vinci.app:Action>
