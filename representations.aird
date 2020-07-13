@@ -6,6 +6,7 @@
     <semanticResources>Flatly_fluid.vinci</semanticResources>
     <semanticResources>docs/schlumbergera.vinci</semanticResources>
     <semanticResources>docs/adenium.vinci</semanticResources>
+    <semanticResources>docs/Flatly.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_kzwnAL53EeqylL6t9NBQyg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_mrtJocD0EeqRFJ10yVIvTw" name="Стартовая с объявлениями" repPath="#_mrqGUMD0EeqRFJ10yVIvTw">
